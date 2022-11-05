@@ -4,9 +4,9 @@ services:
     build:
       context: .
       dockerfile: 'Dockerfile'
-    container_name: 'create-card'
+    container_name: 'react_test'
     tty: true
     restart: always
     volumes:
-      - ./:/root/create-card
-    working_dir: '/root/create-card'
+      - ./:/root/react_test
+    working_dir: '/root/react_test'
