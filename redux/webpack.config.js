@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
   mode: 'production',
 
-  entry: './src/index.tsx',
+  entry: './public/index.tsx',
 
   output: {
     path: path.join(__dirname, 'public'),
