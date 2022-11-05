@@ -15,4 +15,4 @@ temp:
 	cd test && rm -f -R .git && npm start
 
 redux:
-	cd redux && npm start
+	cd redux && npm install && npm run start
