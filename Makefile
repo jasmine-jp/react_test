@@ -11,7 +11,7 @@ down:
 	docker system prune -a
 
 temp:
-	npx create-react-app --template typescript
+	npx create-react-app test --template typescript
 	cd test && rm -f -R .git && npm start
 
 redux:
